@@ -1,0 +1,38 @@
+/* what we do */
+
+.doing__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.doing__item {
+  width: 370px;
+  margin-right: 30px;
+  position: relative;
+}
+.doing__item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.doing__position {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(47, 48, 58, 0.8);
+
+  opacity: 1;
+
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}

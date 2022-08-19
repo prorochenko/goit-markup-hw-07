@@ -564,32 +564,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer__button {
-  width: 200px;
-  height: 50px;
-
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: 0px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.06em;
-  gap: 10px;
-  color: #ffffff;
-  outline: none;
-  cursor: pointer;
-
-  padding: 10px 28px;
-}
-
 /* Porfolio PAGE */
 
 .portfolios {
@@ -807,6 +781,32 @@ body {
 
 .portfolio__buttons .item:nth-last-child(5n) {
   margin-right: 0px;
+}
+
+.footer__button {
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  gap: 10px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+
+  padding: 10px 28px;
 }
 
 /* BackDrop */
