@@ -11,13 +11,13 @@
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-}
 
-.logo--header {
-  color: #000000;
-}
-.logo--footer {
-  color: #ffffff;
+  &--header {
+    color: #000000;
+  }
+  &--footer {
+    color: #ffffff;
+  }
 }
 
 /* Main Nav */
@@ -55,55 +55,54 @@
   &__item:focus {
     color: var(--accent-color);
   }
-}
 
-.menu__link--current {
-  color: var(--accent-color);
-}
+  &__link--current {
+    color: var(--accent-color);
+  }
 
-.menu__link--current:after {
-  position: absolute;
-  display: block;
-  content: '';
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  bottom: -1px;
-  background-color: var(--accent-color);
+  &__link--current:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -1px;
+    background-color: var(--accent-color);
+  }
 }
 
 .navcontacts {
   display: flex;
   margin-left: auto;
-}
+  &__link {
+    color: var(--site-navcontacts-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 
-.navcontacts__link {
-  color: var(--site-navcontacts-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+  }
 
-.navcontacts__link:hover,
-.navcontacts__link:focus {
-  color: var(--accent-color);
-}
+  &__item:nth-child(n + 1) {
+    margin-right: 50px;
+  }
 
-.navcontacts__item:nth-child(n + 1) {
-  margin-right: 50px;
-}
+  &__link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
 
-.navcontacts__link {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.navcontacts__icon {
-  fill: currentColor;
+  &__icon {
+    fill: currentColor;
+  }
 }
