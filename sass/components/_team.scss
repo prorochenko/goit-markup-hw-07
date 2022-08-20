@@ -2,6 +2,9 @@
 
 .team {
   @extend %section;
+  &__title {
+    @extend %title;
+  }
   background-color: var(--bgc);
 
   &__container {
