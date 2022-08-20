@@ -1,7 +1,12 @@
 /* Our Team */
 
 .team {
+  @extend %section;
   background-color: var(--bgc);
+
+  &__container {
+    @extend %container;
+  }
 
   &__list {
     @extend %list;
@@ -27,6 +32,7 @@
   }
 
   &__title {
+    @extend %title;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;

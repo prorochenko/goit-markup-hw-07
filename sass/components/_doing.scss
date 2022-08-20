@@ -1,10 +1,17 @@
 /* what we do */
 
 .doing {
+  @extend %section;
+  &__container {
+    @extend %container;
+  }
   &__list {
     @extend %list;
     display: flex;
     flex-wrap: wrap;
+  }
+  &__title {
+    @extend %title;
   }
   &__item {
     width: 370px;

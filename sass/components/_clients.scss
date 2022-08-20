@@ -1,6 +1,13 @@
 /* Постійні клієнти  */
 
 .clients {
+  @extend %section;
+  &__container {
+    @extend %container;
+  }
+  &__title {
+    @extend %title;
+  }
   &__list {
     @extend %list;
     display: flex;

@@ -1,8 +1,13 @@
 /*features*/
 
 .feature {
+  @extend %section;
   padding-top: 88px;
   padding-bottom: 0px;
+
+  &__container {
+    @extend %container;
+  }
 
   &__title {
     @extend %visually-hidden;

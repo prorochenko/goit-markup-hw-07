@@ -1,6 +1,9 @@
 /* Шапка сайта */
 .header {
   border-bottom: 1px solid #ececec;
+  &__container {
+    @extend %container;
+  }
 }
 .nav {
   display: flex;

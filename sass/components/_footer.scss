@@ -4,6 +4,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
+  &__container {
+    @extend %container;
+  }
+
   &__list {
     @extend %list;
   }

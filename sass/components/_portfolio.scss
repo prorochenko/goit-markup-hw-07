@@ -55,6 +55,10 @@
 }
 
 .portfolio {
+  @extend %section;
+  &__container {
+    @extend %container;
+  }
   &__maintitle {
     @extend %visually-hidden;
   }

@@ -300,7 +300,21 @@ img {
   margin: 0;
 }
 
-.container {
+.feature, .doing, .team, .portfolio, .clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.doing__title, .cards__title, .clients__title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.feature__container, .doing__container, .team__container, .footer__container, .portfolio__container, .clients__container, .header__container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -308,21 +322,6 @@ img {
   padding-right: 15px;
   /* outline: 2px solid red;
   outline-offset: -2px; */
-}
-
-/* Sections */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.title {
-  color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
 }
 
 :root {
@@ -354,7 +353,6 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 }
-
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
