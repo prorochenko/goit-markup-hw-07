@@ -30,31 +30,31 @@
 .menu {
   display: flex;
   margin-left: 93px;
-}
 
-.menu__item:nth-child(n + 1) {
-  margin-right: 50px;
-}
+  &__item:nth-child(n + 1) {
+    margin-right: 50px;
+  }
 
-.menu__item {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  position: relative;
-  color: var(--menu-text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+  &__item {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    position: relative;
+    color: var(--menu-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.menu__item:hover,
-.menu__item:focus {
-  color: var(--accent-color);
+  &__item:hover,
+  &__item:focus {
+    color: var(--accent-color);
+  }
 }
 
 .menu__link--current {
