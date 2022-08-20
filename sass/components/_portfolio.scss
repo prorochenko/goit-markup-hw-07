@@ -54,6 +54,9 @@
 }
 
 .portfolio {
+  &__maintitle {
+    @extend %visually-hidden;
+  }
   &__title {
     color: var(--title-text-color);
     font-size: 18px;

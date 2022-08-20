@@ -242,8 +242,45 @@ summary {
   display: list-item;
 }
 
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* For all elemets */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Свойства для корректного отображения картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*  правильно і семантично ховати заголовки */
-.visually-hidden {
+.feature__title, .portfolio__maintitle, .register-checkbox {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -286,43 +323,6 @@ summary {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 0;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/* For all elemets */
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-/* Стили для обнуления верхних отступов у элементов */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-}
-
-/* Класс для обнуления базовых свойств у ссылок */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Свойства для корректного отображения картинок */
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 :root {

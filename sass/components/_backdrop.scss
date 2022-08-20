@@ -117,6 +117,9 @@ textarea.labelfield {
   justify-content: center;
   gap: 8px;
 }
+.register-checkbox {
+  @extend %visually-hidden;
+}
 
 .register-checkbox:focus + .register-agreement-icon {
   outline: 2px solid var(--accent-color);

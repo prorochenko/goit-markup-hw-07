@@ -4,6 +4,10 @@
   padding-top: 88px;
   padding-bottom: 0px;
 
+  &__title {
+    @extend %visually-hidden;
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;
