@@ -2,6 +2,7 @@
 
 .clients {
   &__list {
+    @extend %list;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -63,6 +63,7 @@
 }
 
 .portfolio__buttons {
+  @extend %list;
   display: flex;
   justify-content: center;
   margin-top: 0;

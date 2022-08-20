@@ -1,6 +1,7 @@
 /* Porfolio PAGE */
 
 .portfolios {
+  @extend %list;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;

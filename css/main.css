@@ -294,7 +294,7 @@ img {
   overflow: hidden;
 }
 
-.list {
+.feature__list, .doing__list, .cards__sociallinks, .team__list, .footer__sociallinks, .footer__list, .portfolios, .clients__list, .portfolio__buttons, .navcontacts, .menu {
   list-style: none; /* убирает оформление списка*/
   padding: 0;
   margin: 0;

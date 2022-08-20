@@ -30,6 +30,7 @@
 
 /* Site nav */
 .menu {
+  @extend %list;
   display: flex;
   margin-left: 93px;
 
@@ -75,6 +76,7 @@
 }
 
 .navcontacts {
+  @extend %list;
   display: flex;
   margin-left: auto;
   &__link {
